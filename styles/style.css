@@ -1,0 +1,81 @@
+h1 { color: rgb(233, 213, 213);
+    font-size: 33px;
+    text-align: center;
+}
+body {
+    background-color:rgb(56, 48, 48) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../img/prueba-3.jpg);
+}
+header img {
+    height: 150px;
+    width: 160px;
+    border-radius: 100px;
+}
+.flex {
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav li {
+    list-style: none;
+    font-size: 25px;
+}
+main h2 {
+    color: rgb(146, 124, 124);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main p {
+    color: rgb(146, 124, 124);
+    font-size: 20px;
+    text-align: center;
+}
+main section img {
+    height: 320px;
+    width: 550px;
+}
+main section h3 {
+    color: rgb(146, 124, 124);
+}
+.cepas {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.tion {
+    display: grid;
+    
+}
+.laboratorio {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    border-radius: 20px;
+}
+.muestra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    color: rgb(146, 124, 124);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+}
+footer h2 {
+    color: rgb(146, 124, 124);
+}
+footer img {
+    height: 75px;
+    width: 75px;
+}
