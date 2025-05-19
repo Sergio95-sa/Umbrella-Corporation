@@ -47,7 +47,14 @@ main section h3 {
     display: flex;
     flex-flow: row wrap;
 }
-
+.sonvi{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 2 fr 1fr;
+    border-radius: 3%;
+    justify-items: center;
+    align-items: center;
+}
 .floxi {
     height: 50vh;
     display: flex;
@@ -103,6 +110,15 @@ footer img {
     width: 75px;
 }
 @media (max-width: 480px) ; {
+    .header {
+        height: 50px;
+        width: 50px;
+    }
+    }
+    .flex {
+        height: 50px;
+        width: 50px;
+    }
     .main{
         display: flex;
         flex-direction: column;
