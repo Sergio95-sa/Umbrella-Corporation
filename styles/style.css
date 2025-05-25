@@ -158,7 +158,7 @@ footer img {
     height: 75px;
     width: 75px;
 }
-@media (min-width: 375px) and (max-width: 767px) { 
+@media (min-width: 320px) and (max-width: 767px) { 
     .head-container {
         margin: 5%;
         padding: 5%;
@@ -168,7 +168,7 @@ footer img {
         justify-content:center;
         align-items: center;
     }
-    .main-container{
+    .main-container {
         margin: 5%;
         padding:5%;
         font-size: 2rem;
@@ -184,8 +184,9 @@ footer img {
     }
     .floxi {
         margin-top: 5%;
+        max-height: 100%;
         display: grid;
-        grid-auto-flow: column;
+        grid-auto-columns: auto;
 
     }
     .laboratorio {
@@ -202,4 +203,16 @@ footer img {
     font-size: 1.2rem;
     max-width: 1200px;
     box-sizing: border*/
+    .carousel-inner {
+        margin: 5px;
+        padding: 5px;
+        height: auto;
+        width: 620px;
+        justify-content: center;
+        align-items: center;
+    }
+    .formulario {
+        margin-top: 5px 5px;
+        padding: 5px;
+    }
 }
