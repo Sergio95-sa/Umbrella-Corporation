@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    h2 {
+        color: rgb(146, 124, 124);
+    }
+    footer img {
+        height: 75px;
+        width: 75px;
+    }
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,auto);
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    .footer-h2{
+        grid-column: 2/5;
+        grid-row: 1;
+        justify-self: center;
+        position: relative;
+        text-align: center;
+        font-size: 3em;
+    }
+    .footer-redes{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        grid-column: 2/5;
+    }
+    @include mobile{
+        
+    }
+}

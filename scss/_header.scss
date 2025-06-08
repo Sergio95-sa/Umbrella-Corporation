@@ -1,0 +1,28 @@
+.head-container { 
+        h1{
+            color: color: rgb(233, 213, 213);
+            font-size: 33px;
+            text-align: center;
+        }
+        header img{
+            height: 150px;
+            width: 170px;
+            border-radius: 100px;
+            margin-bottom: 15px;
+        }
+        header nav li{ 
+            list-style: none;
+            font-size: 25px;
+        }
+    @include mobile{
+        .head-container {
+            margin: 5%;
+            padding: 5%;
+            font-size: 2rem;
+            display: flex;
+            flex-flow: wrap;
+            justify-content:center;
+            align-items: center;
+        }
+    }
+}

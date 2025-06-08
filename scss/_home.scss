@@ -1,0 +1,35 @@
+.main {
+    h2{
+        color: rgb(146, 124, 124);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    p{
+        color: rgb(146, 124, 124);
+        font-size: 20px;
+        text-align: center;
+    }
+    img{
+        height: 320px;
+        width: 550px;
+    }
+    h3{
+        color: rgb(146, 124, 124);
+    }
+    .texto{
+        font-size: 30px;
+    }
+    @include mobile{
+        .main-container{
+            margin: 5%;
+            padding:5%;
+            font-size: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+    }
+}

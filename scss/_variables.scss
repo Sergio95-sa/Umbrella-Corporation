@@ -1,0 +1,12 @@
+@mixin mobile{
+    @media (min-width: 320px) and (max-width: 767px){
+        @content
+    }
+}
+body {
+    background-color:rgb(56, 48, 48) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../img/fondo-de-pagina-web.avif);
+    margin: 0 ;
+    padding: 0 ;
+}
