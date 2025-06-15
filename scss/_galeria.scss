@@ -1,0 +1,57 @@
+.cepas {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.muestra {
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.floxi {
+    height: auto;
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px;
+    align-items: center;
+    gap: 25px;
+    margin: 50px auto;
+}
+.carousel-item img {
+    height: 370px;
+    width: 150px;
+    border-radius: 5%;
+}
+@include mobile {
+    .main-container-galeria {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+    .carousel-inner {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        border-radius: 3%;
+    }
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .muestra video {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        display: block;
+    }
+}
