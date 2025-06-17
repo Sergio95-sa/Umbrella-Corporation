@@ -10,7 +10,9 @@
     border-radius: 3%;
     align-items: center;
     margin: 0;
-    animation: bigger 2s ease;
+}
+.laboratorio:hover{
+    animation: backwards 2s ease;
     animation-fill-mode: forwards;
 }
 @keyframes laboratorio {
