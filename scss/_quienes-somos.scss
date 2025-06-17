@@ -10,6 +10,16 @@
     border-radius: 3%;
     align-items: center;
     margin: 0;
+    animation: bigger 2s ease;
+    animation-fill-mode: forwards;
+}
+@keyframes laboratorio {
+    0%{
+        scale: 1;
+    }
+    100%{
+        scale: 1.2;
+    }
 }
 @include mobile{
     display: flex;
